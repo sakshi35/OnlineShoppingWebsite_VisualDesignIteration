@@ -7,6 +7,7 @@
 function addToBag(item){
     addToCart(item);
     updateBagCount();
+    alert("Item added to cart");
 }
 
 // update the bag counter based on the number of items in the cart
