@@ -73,6 +73,7 @@
         document.getElementById("productName").innerHTML = catalog[productID].name;
         document.getElementById("productPrice").innerHTML = "$" + catalog[productID].price;
         document.getElementById("productImage").src = catalog[productID].image;
+        document.getElementById("productImage").alt = catalog[productID].alt;
         document.getElementById("productDetails").innerHTML = catalog[productID].long_description;
         document.getElementById("addButton").onclick = function () { addToBag(productID); };
         updateBagCount();
