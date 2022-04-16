@@ -222,7 +222,7 @@
           passCheck = false;
         }
 
-        if (cardNumber === ""){
+        if (cardNumber === "" || cardNumber.length != 16){
           document.getElementById("cardNumber").classList.add("is-invalid");
           passCheck = false;
         }
