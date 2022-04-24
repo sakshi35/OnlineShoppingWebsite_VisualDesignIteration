@@ -106,20 +106,26 @@
 
     <div class="container">
         <div class="row py-3">
-            <div class="col-md-6 text-center">
-                <h3 class="py-3" style="color:powderblack" style="font-family:Times New Roman" id="productName"></h3>
-                <img id="productImage" src="./images/pws.jpeg" alt="product image" style="width:100%">
+            <div class="col-md-12 text-center">
+                <h2 style="font-family:verdana;" id="productName"></h2>
             </div>
-
-          <div class="col-md-6 text-center">
-            <p class="py-3" style="font-size:200%;" id="productPrice"></p>
-            <h4 style="font-size:250%;" style="font-family:verdana">Item Description</h4>
-            <p style="font-size:130%;" style="font-family:verdana" id="productDetails"></p>
-            <p><button id="addButton" class="btn btn-success">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"></path><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path></svg>
-              Add to Cart</button></p>
-          </div>
         </div>
+
+        <div class="row py-3 mb-4">
+          <div class="col-md-6 text-center">
+            <img id="productImage" src="./images/pws.jpeg" alt="product image" style="width:100%">
+        </div>
+          <div class="col-md-6 text-center">
+            <h1 style="font-family:verdana;">Item Description</h1>
+            <p class="mt-4" style="font-size:130%;" style="font-family:verdana;" id="productDetails"></p>
+            <h2 style="font-family:verdana; color:#808080;" id="productPrice"></h2>
+            <button id="addButton" class="btn btn-success btn-lg mt-4" style="width:40%">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"></path><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path></svg>
+            </button>
+          </div>
+        
+        </div>
+
       </div>
 
          <!-- Footer -->
@@ -225,3 +231,4 @@
     </script>
     </body>
 </html>
+
