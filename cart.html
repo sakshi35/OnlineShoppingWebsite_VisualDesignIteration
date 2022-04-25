@@ -24,43 +24,46 @@
       .goog-text-highlight { background: none !important; box-shadow: none !important;}
   </style>
 </head>
-<!-- Nav Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      S<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 9.984C10.403 9.506 12 7.48 12 5a4 4 0 0 0-8 0c0 2.48 1.597 4.506 4 4.984ZM13 5c0 2.837-1.789 5.227-4.52 5.901l.244.487a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.244-.487C4.789 10.227 3 7.837 3 5a5 5 0 0 1 10 0Zm-6.938-.495a2.003 2.003 0 0 1 1.443-1.443C7.773 2.994 8 2.776 8 2.5c0-.276-.226-.504-.498-.459a3.003 3.003 0 0 0-2.46 2.461c-.046.272.182.498.458.498s.494-.227.562-.495Z"/></svg>mple Sh<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/></svg>p
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item" id="home">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item" id="books">
-          <a class="nav-link" href="index.html?category=books">Books</a>
-        </li>
-        <li class="nav-item" id="clothes">
-          <a class="nav-link" href="index.html?category=clothes">Clothes</a>
-        </li>
-        <li class="nav-item" id="food">
-          <a class="nav-link" href="index.html?category=food">Food</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto" style="margin-right: 1%;">
-        <li class="nav-item">
-          <div id="google_translate_element"></div>
-        </li>
-      </ul>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='cart.html'">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16"><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/></svg>
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success" style="color:ghostwhite;" id="bag_count"></span>
-      </button>
-    </div>
-  </nav>
   
   <body class="cart_body">
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTICAL}, 'google_translate_element');
+      }
+      </script>
+  
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-weight: normal;">
+      <a class="navbar-brand" href="#">
+        S<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 9.984C10.403 9.506 12 7.48 12 5a4 4 0 0 0-8 0c0 2.48 1.597 4.506 4 4.984ZM13 5c0 2.837-1.789 5.227-4.52 5.901l.244.487a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.244-.487C4.789 10.227 3 7.837 3 5a5 5 0 0 1 10 0Zm-6.938-.495a2.003 2.003 0 0 1 1.443-1.443C7.773 2.994 8 2.776 8 2.5c0-.276-.226-.504-.498-.459a3.003 3.003 0 0 0-2.46 2.461c-.046.272.182.498.458.498s.494-.227.562-.495Z"/></svg>mple Sh<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/></svg>p
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" id="home">
+            <a class="nav-link" href="index.html">Home</span></a>
+          </li>
+          <li class="nav-item" id="books">
+            <a class="nav-link" href="index.html?category=books">Books</a>
+          </li>
+          <li class="nav-item" id="clothes">
+            <a class="nav-link" href="index.html?category=clothes">Clothes</a>
+          </li>
+          <li class="nav-item" id="food">
+            <a class="nav-link" href="index.html?category=food">Food</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='cart.html'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16"><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/></svg>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success" style="color:ghostwhite;" id="bag_count"></span>
+        </button>
+      </div>
+    </nav>
   <div class="card">
     <div class="row">
       <div class="col-md-8 cart">
@@ -108,7 +111,7 @@
           <!-- Facebook -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #3b5998;"
+            style="background-color: #3b5998; border: 0;"
             href="#!"
             role="button"
             ><i class="fab fa-facebook-f"></i
@@ -117,7 +120,7 @@
           <!-- Twitter -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #55acee;"
+            style="background-color: #55acee; border: 0;"
             href="#!"
             role="button"
             ><i class="fab fa-twitter"></i
@@ -126,7 +129,7 @@
           <!-- Google -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #dd4b39;"
+            style="background-color: #dd4b39; border: 0;"
             href="#!"
             role="button"
             ><i class="fab fa-google"></i
@@ -135,7 +138,7 @@
           <!-- Instagram -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #ac2bac;"
+            style="background-color: #ac2bac; border: 0;"
             href="#!"
             role="button"
             ><i class="fab fa-instagram"></i
@@ -144,7 +147,7 @@
           <!-- Linkedin -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #0082ca;"
+            style="background-color: #0082ca; border: 0;"
             href="#!"
             role="button"
             ><i class="fab fa-linkedin-in"></i
@@ -152,24 +155,24 @@
           <!-- Github -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #333333;"
+            style="background-color: #333333; border: 0;"
             href="https://github.com/sakshi35/OnlineShoppingWebsite_InteractionDesignIteration"
             role="button"
             ><i class="fab fa-github"></i
           ></a>
+          <!-- Google Translator -->
+        <div id="google_translate_element" class="btn btn-floating m-1" style="background-color: #f8f9fa; border: 0;"></div>
         </section>
         <!-- Section: Social media -->
+        
       </div>
       <!-- Grid container -->
 
-      <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         Email: example@gmu.edu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone: +15713456789
       </div>
-      <!-- Copyright -->
     </footer>
-    </body>
-
+  </body>
     <!-- Load the Catalog -->
     <script src ="./catalog.js"></script>
    <script src ="shoppingcart.js"></script>
@@ -196,10 +199,11 @@
               <div class="row main align-items-center">
                   <div class="col-2"><img id="item" src="${catalog[id].image}" style="width:100%"></div>
                   <div class="col">
-                      <div class="row text-muted">${catalog[id].name}</div>
-                      <div class="row">${catalog[id].short_description}</div>
+                      <div class="row">${catalog[id].name}</div>
+                      <div class="row" style="font-weight: 200;">${catalog[id].short_description}</div>
                   </div>
-                  <div class="col"> <button type="button" class="btn-plus-minus" id=${id} onclick="decrementValue(this.id)">-</button><input type="number" min="0" class="item_quantity" name="quantity" value="${cart[id]}" id=${valid} onkeydown="search(this.id, this.value)" oninput="validity.valid||(value='');" /><button type="button" class="btn-plus-minus" id=${id} onclick="incrementValue(this.id)">+</button></div>
+                  <div class="col">
+                    <button type="button" class="btn-plus-minus" id=${id} onclick="decrementValue(this.id)">-</button><input type="number" min="0" class="item_quantity" name="quantity" value="${cart[id]}" id=${valid} onkeydown="search(this.id, this.value)" oninput="validity.valid||(value='');" /><button type="button" class="btn-plus-minus" id=${id} onclick="incrementValue(this.id)">+</button></div>
                   <div class="col">$${catalog[id].price} <span class="close" onclick="removeItem(${id})">&#10005;</span></div>
               </div>
           </div>`
